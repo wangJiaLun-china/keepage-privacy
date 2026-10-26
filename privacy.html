@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>隐私政策 · 拾页 Keepage</title><meta name="description" content="拾页 Keepage 不收集任何数据，所有内容只保存在你的浏览器本地。"><link rel="icon" href="icon.png"><style>:root{color-scheme:light dark;--bg:#fbf8f3;--ink:#2a241d;--muted:#6e6457;--line:#e5dccd;--accent:#a63d27}
+<title>隐私政策 · 拾页 Keepage</title><meta name="description" content="拾页 Keepage 的收藏内容只保存在你的浏览器本地；只发送可关闭的匿名使用统计。"><link rel="icon" href="icon.png"><style>:root{color-scheme:light dark;--bg:#fbf8f3;--ink:#2a241d;--muted:#6e6457;--line:#e5dccd;--accent:#a63d27}
 @media (prefers-color-scheme:dark){:root{--bg:#1d1a16;--ink:#ece6dc;--muted:#a89f92;--line:#3a342c;--accent:#e07a5f}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.8 -apple-system,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif}
 main{max-width:720px;margin:0 auto;padding:48px 16px 80px}
@@ -12,11 +12,21 @@ hr{border:0;border-top:1px solid var(--line);margin:56px 0}article>p:first-of-ty
 <article lang="zh-CN"><h1>拾页 Keepage 隐私政策</h1>
 <p>最后更新：2026 年 10 月</p>
 <p>拾页（Keepage）是一个浏览器扩展，用来保存网页正文、高亮和批注。</p>
-<h2>我们收集什么</h2>
-<p><strong>什么都不收集。</strong> 拾页没有服务器，不需要注册账号，不包含任何统计、分析或广告代码。</p>
-<h2>你的数据存在哪里</h2>
-<p>你保存的网址、正文快照、高亮、备注、标签、分组和阅读设置，全部只保存在你这台电脑的浏览器本地存储（IndexedDB 和 chrome.storage.local）里，不会发送到任何地方。</p>
+<h2>你的收藏只在本地</h2>
+<p>你保存的网址、标题、正文快照、高亮、备注、标签、分组和阅读设置，全部只保存在你这台电脑的浏览器本地存储（IndexedDB 和 chrome.storage.local）里，<strong>不会发送到任何地方</strong>。不需要注册账号。</p>
 <p>卸载扩展或清除浏览器数据会删除这些数据。你可以在「设置与备份」里随时下载一份 JSON 备份，备份文件也只保存在你自己选择的位置。</p>
+<h2>匿名使用统计（可关闭）</h2>
+<p>为了了解哪些功能有人在用、决定后续改进方向，拾页默认会发送匿名使用统计。发送的内容只有：</p>
+<ul>
+<li>一个随机生成的设备标识（不与你的身份、账号或浏览器信息关联）和扩展版本号</li>
+<li>功能使用事件：打开扩展、保存（来源是弹窗还是右键、是否读到正文）、打开阅读页、新建高亮（颜色）、写备注、搜索（结果数量）、开始批量导入（篇数）、提交反馈（类型）</li>
+</ul>
+<p><strong>不发送</strong>网址、网站名、标题、正文、高亮和备注的内容、搜索词，也不记录你浏览了哪些网页。</p>
+<p>你可以在「设置与备份 → 隐私」里关闭「发送匿名使用统计」，关闭后立即停止发送。</p>
+<h2>意见反馈</h2>
+<p>你在「设置与备份 → 意见反馈」里主动提交的内容、选填的联系方式，以及扩展版本号，会发送给开发者，用来回复和改进产品。</p>
+<h2>数据发送到哪里</h2>
+<p>匿名使用统计和意见反馈通过 HTTPS 发送到开发者自己运营的服务器，不使用第三方统计或广告服务。扩展同时会从这台服务器读取功能开关（例如临时关闭某个功能、维护通知），这个请求不包含你的任何收藏内容。</p>
 <h2>扩展什么时候读取网页</h2>
 <ul>
 <li>只有在你点击工具栏图标、按快捷键或使用右键菜单「保存到拾页」时，才读取当前这一个标签页的内容，用来提取正文。</li>
@@ -24,14 +34,16 @@ hr{border:0;border-top:1px solid var(--line);margin:56px 0}article>p:first-of-ty
 </ul>
 <p>扩展不会在你浏览网页时常驻读取页面，也不会读取你没有选择保存的页面。</p>
 <h2>第三方</h2>
-<p>拾页不与任何第三方共享数据，也不使用第三方服务。阅读模式里显示的图片直接从原网站加载，这和你直接打开原网页时一样。</p>
+<p>拾页不出售、不与任何第三方共享数据。阅读模式里显示的图片直接从原网站加载，这和你直接打开原网页时一样。</p>
 <h2>联系</h2>
-<p>如有问题，请在 GitHub 仓库提交 issue。</p></article>
+<p>如有问题，可以在扩展的「意见反馈」里留言，或在 GitHub 仓库提交 issue。</p></article>
 <hr>
 <article lang="en" id="en"><h1>Keepage Privacy Policy</h1>
 <p>Last updated: October 2026</p>
-<p><strong>Keepage collects no data.</strong> It has no server, no account, and no analytics, tracking or ads.</p>
-<p>Everything you save (URLs, article snapshots, highlights, notes, tags, groups and reader settings) is stored only in your browser's local storage on your computer and is never sent anywhere. Uninstalling the extension or clearing browser data deletes it; you can download a JSON backup at any time.</p>
+<p><strong>Your library stays on your computer.</strong> Everything you save (URLs, titles, article snapshots, highlights, notes, tags, groups and reader settings) is stored only in your browser's local storage and is never sent anywhere. No account is needed. Uninstalling the extension or clearing browser data deletes it; you can download a JSON backup at any time.</p>
+<p><strong>Anonymous usage statistics (optional).</strong> By default Keepage sends anonymous usage statistics: a randomly generated device ID, the extension version, and feature-use events (opening the extension, saving a page and whether text was extracted, opening the reader, creating a highlight and its color, adding a note, searching and the number of results, starting a batch import and the number of pages, submitting feedback and its type). It never sends URLs, site names, titles, article text, highlight or note content, search terms, or your browsing history. You can turn this off at any time in Settings → Privacy.</p>
+<p><strong>Feedback.</strong> Feedback you choose to submit, an optional contact, and the extension version are sent to the developer.</p>
+<p>Statistics and feedback are sent over HTTPS to a server run by the developer; no third-party analytics or ad services are used. The extension also reads feature switches (such as maintenance notices) from that server; these requests contain none of your saved content.</p>
 <p>The extension reads a page only when you click its toolbar icon, press its shortcut, or choose &quot;Save to Keepage&quot; from the context menu. For batch import, it asks for permission to access that one site and then reads only the pages you selected. You can revoke that permission at any time in your browser's extension settings.</p>
-<p>Keepage shares nothing with third parties. Images in the reader load directly from the original site, just as they would when you open the page.</p></article>
+<p>Keepage does not sell or share data with third parties. Images in the reader load directly from the original site, just as they would when you open the page.</p></article>
 </main></body></html>
